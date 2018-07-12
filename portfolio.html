@@ -1,64 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-    <meta charset = "UTF-8">
+    <meta charset ="UTF-8">
+    <title>About | Matt Clark</title>
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css">
     <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
-    <title>Portfolio</title>
 </head>
-
 <body>
-
-   <!--CONTAINER-->    
- <div id = "container">   
-    <!--HEADER-->
-        <div id = "header">   
-        
-        <div id = "Name">
-            Matt Clark
-        </div>    
     
-        <div id = "navbar">
-                <ul>
-                    <li><a href = "#">About</a></li> 
-                    <li><a href = "#">Portfolio |</a></li>
-                    <li><a href = "#">Contact |</a></li>
-                   
-                </ul>
+    <header class = "mainheader"> <!--Header begin-->
+        <div class = "container">
+            <a href = "index.html" id = "logo">Matt Clark</a>
+        <nav>
+            <div>
+                <a href = "index.html">About</a>
+                <a href = "portfolio.html">Portfolio</a>
+                <a href = "contact.html">Contact</a>
+            </div>
+        </nav>
         </div>
+    </header> <!--Header end-->
 
-    </div> <!--HEADER END-->
+    <div id = "main-container" class = "container"> <!--main container begin-->
+        <section class = "main-section">
+            <h1>Portfolio</h1>
 
-    <!--CONTENT-->
-    <div id = "contentportfolio">
+            <div class = "work">
+                    <img id = "psychic" src = "https://picsum.photos/200/300" class = "auth-image"alt = "Picture">
 
-        <div class = "box" id = "box1">
-            Box1
-        </div>
+                    <a href = "https://mclark1990.github.io/Psychic-Game/" target = "_blank"><h3>Psychic Game Page</h3></a>
+            </div>
 
-        <div class = "box" id = "box2">
-            Box2
-        </div>
+            <div class = "work">
+                    <img src = "https://picsum.photos/200/300" class = "auth-image"alt = "Picture">
+        
+                    <a href = "https://mclark1990.github.io/Giphy/" target = "_blank"><h3>Giphy Page</h3></a>
+                    </div>
 
-        <div class = "box" id = "box3">
-            Box3
-        </div>
+            <div class = "work">
+                    <img src = "https://picsum.photos/200/300" class = "auth-image"alt = "Picture">
+                
+                    <h3>Trivia Game</h3>
+            </div> 
+            <div class = "work">
+                    <img src = "https://picsum.photos/200/300" class = "auth-image"alt = "Picture">
+        
+                    <h3>Rutgers Info Widget</h3>
+                    </div>
+            <div class = "work">
+                    <img src = "https://picsum.photos/200/300" class = "auth-image"alt = "Picture">
+                
+                    <h3>Rock Paper Scissors</h3>
+                    </div>          
+        
+        </section>
+        <section class = "sidebar">
+            <div id = "connect">
+                <h2>Connect With Me</h2>
+        
+                <img src = "https://picsum.photos/50/50" class = "social" alt = "Picture">
+                <img src = "https://picsum.photos/50/50" class = "social" alt = "Picture">
+                <img src = "https://picsum.photos/50/50" class = "social" alt = "Picture">
+            </div>
+        
 
-        <div class = "box" id = "box4">
-            Box4
-        </div>
-
-        <div class = "box" id = "box5">
-            Box5
-        </div>
-
-    </div><!--CONTENT-->
-
+        </section>
+    </div> <!--main-container end-->
+    
     <footer>
-        Copyright &#169;
+        <div class = "container">
+        &copy;Copyright Matt Clark
+        </div>
     </footer>
-
-
-</div> <!--CONTAINER END-->
 </body>
+
 </html>
